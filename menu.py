@@ -1,3 +1,6 @@
+from basic_operations import add
+
+
 def input_option():
     try:
         option = int(input())
@@ -10,8 +13,29 @@ def input_option():
         return None, False
 
 
-MENU_OPTIONS = ["Quit"]
-MENU_FUNCTIONS = []
+def input_float():
+    try:
+        float_number = float(input())
+        return float_number, True
+    except:
+        print("Invalid float input!")
+        return None, False
+
+
+def add_menu():
+    print("Please enter the first number:", end="")
+    first_number, valid = input_float()
+    if not valid:
+        return
+    print("Please enter the second number:", end="")
+    second_number, valid = input_float()
+    if not valid:
+        return
+    return add(first_number, second_number)
+
+
+MENU_OPTIONS = ["Addition", "Quit"]
+MENU_FUNCTIONS = [add_menu]
 
 
 def run_menu():
@@ -21,7 +45,7 @@ def run_menu():
 
     option, valid = input_option()
     if valid:
-        if option == len(MENU_OPTIONS):
+        if option == 2:
             return False
         MENU_FUNCTIONS[option - 1]()
 
