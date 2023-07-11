@@ -82,7 +82,7 @@ def run_menu():
 
     option, valid = input_option()
     if valid:
-        if option == 2:
+        if option == len(MENU_OPTIONS):
             return False
         MENU_FUNCTIONS[option - 1]()
 
