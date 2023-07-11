@@ -23,11 +23,11 @@ def input_float():
 
 
 def add_menu():
-    print("Please enter the first number:", end="")
+    print("Please enter the first number:", end=" ")
     first_number, valid = input_float()
     if not valid:
         return
-    print("Please enter the second number:", end="")
+    print("Please enter the second number:", end=" ")
     second_number, valid = input_float()
     if not valid:
         return
@@ -35,33 +35,33 @@ def add_menu():
 
 
 def subtract_menu():
-    print("Please enter the first number:", end="")
+    print("Please enter the first number:", end=" ")
     first_number, valid = input_float()
     if not valid:
         return
-    print("Please enter the second number:", end="")
+    print("Please enter the second number:", end=" ")
     second_number, valid = input_float()
     if not valid:
         return
     print(f"The response is: {subtract(first_number, second_number)}") 
 
 def multiply_menu():
-    print("Please enter the first number:", end="")
+    print("Please enter the first number:", end=" ")
     first_number, valid = input_float()
     if not valid:
         return
-    print("Please enter the second number:", end="")
+    print("Please enter the second number:", end=" ")
     second_number, valid = input_float()
     if not valid:
         return
     print(f"The response is: {multiply(first_number, second_number)}") 
 
 def division_menu():
-    print("Please enter the first number:", end="")
+    print("Please enter the first number:", end=" ")
     first_number, valid = input_float()
     if not valid:
         return
-    print("Please enter the second number:", end="")
+    print("Please enter the second number:", end=" ")
     second_number, valid = input_float()
     if not valid:
         return
