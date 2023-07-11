@@ -1,4 +1,4 @@
-from basic_operations import add, subtract
+from basic_operations import add, subtract, multiply
 
 
 def input_option():
@@ -45,9 +45,20 @@ def subtract_menu():
         return
     return subtract(first_number, second_number)
 
+def multiply_menu():
+    print("Please enter the first number:", end="")
+    first_number, valid = input_float()
+    if not valid:
+        return
+    print("Please enter the second number:", end="")
+    second_number, valid = input_float()
+    if not valid:
+        return
+    return multiply(first_number, second_number)
 
-MENU_OPTIONS = ["Addition", "Subtraction", "Quit"]
-MENU_FUNCTIONS = [add_menu, subtract_menu]
+
+MENU_OPTIONS = ["Addition", "Subtraction", "Multiplication", "Quit"]
+MENU_FUNCTIONS = [add_menu, subtract_menu, multiply_menu]
 
 
 def run_menu():
