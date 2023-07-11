@@ -1,4 +1,4 @@
-from basic_operations import add, subtract, multiply
+from basic_operations import add, subtract, multiply, divide
 
 
 def input_option():
@@ -56,9 +56,23 @@ def multiply_menu():
         return
     return multiply(first_number, second_number)
 
+def division_menu():
+    print("Please enter the first number:", end="")
+    first_number, valid = input_float()
+    if not valid:
+        return
+    print("Please enter the second number:", end="")
+    second_number, valid = input_float()
+    if not valid:
+        return
+    if second_number == 0:
+        print("Division by zero not possible!")
+        return
+    return divide(first_number, second_number)
 
-MENU_OPTIONS = ["Addition", "Subtraction", "Multiplication", "Quit"]
-MENU_FUNCTIONS = [add_menu, subtract_menu, multiply_menu]
+
+MENU_OPTIONS = ["Addition", "Subtraction", "Multiplication", "Division", "Quit"]
+MENU_FUNCTIONS = [add_menu, subtract_menu, multiply_menu, division_menu]
 
 
 def run_menu():
