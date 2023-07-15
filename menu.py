@@ -77,7 +77,7 @@ MENU_FUNCTIONS = [add_menu, subtract_menu, multiply_menu, division_menu, run_tri
 
 
 def run_menu():
-    print("Please select one of the operation below.")
+    print("Please select one of the operation below you may see new features.")
     for i, option in enumerate(MENU_OPTIONS):
         print(f"{i + 1}. {option}")
 
