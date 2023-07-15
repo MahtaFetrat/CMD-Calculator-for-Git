@@ -56,7 +56,19 @@ def run_cot():
     except:
         run_cot()
 
-operations = [('Sin',run_sin),('Cos',run_cos),('Tan',run_tan),('Cot',run_cot),('Back',run_back)]
+def deg_2_rad():
+    print('Enter a number in Degrees to calculate Radians, * to go back.')
+    number = input()
+    if number == '*':
+        return True
+    try:
+        number = float(number)
+        print_answer(number * math.pi / 180)
+        return True
+    except:
+        deg_2_rad()
+
+operations = [('Sin',run_sin),('Cos',run_cos),('Tan',run_tan),('Cot',run_cot),('Deg to Rad',deg_2_rad),('Back',run_back)]
 
 def run_trigonometric_menu():
     print('Welcome to trigonometric calculator. Choose an operation.')
