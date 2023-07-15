@@ -30,13 +30,17 @@
 
 ## کلون کردن مخزن و ادامه تغییرات
 ابتدا مخزن ایجاد شده در ریموت را کلون می‌کنیم.
-![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/3fde060c-97f8-4640-8eb8-d76562fe836a)
+<img width="958" alt="Screenshot 2023-07-15 063544" src="https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/51d907bc-3ee1-42b1-8099-a109e7ffce27">
+
 سپس با اضافه کردن منوی اعمال مثلثاتی در فایل menu.py این فایل را ابتدا add می‌کنیم و سپس چیزهایی که روی استیج قرار دارد را کامیت می‌کنیم. و سپس پوش می‌کنیم. هم اکنون همچنان روی شاخه اصلی قرار داریم و چون پروژه را از ابتدا کلون کرده بودیم ریموت آن مشخص بود و هنگام پوش مستقیما به آن ریموت پوش شد.
-![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/88472951-68cd-4e7c-9af9-31ecd05a6f53)
+<img width="960" alt="Screenshot 2023-07-15 064328" src="https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/985cd642-6dd4-44a2-bb70-d79ea99fb6e7">
+
 یک شاخه جدید برای کار روی عملیات‌های مثلثاتی ایجاد کرده و روی آن چک‌اوت می‌کنیم.
-![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/fdff2633-1ca1-42e0-ae80-f0eebe9ffabf)
+<img width="960" alt="Screenshot 2023-07-15 093415" src="https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/6701fa5d-3753-403a-9d2f-c708ae208bce">
+
 ّمنوی اولیه عملیات مثلثاتی را ایجاد می کنیم. این تغییر مستلزم تغییراتی در فایل‌های trigonometric.py وmenu.py می‌باشد. این فایل‌ها را به استیج اضافه کرده و کامیت می‌کنیم. با توجه به اینکه در حال حاضر هد روی شاخه جدیدی است که در ریموت وجود ندارد باید در پوش مشخص کنیم که این شاخه در ریپازیتوری ریموت نیز ساخته شود.
-![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/73d0c4a0-fdc2-4535-b2f1-dac5235a0ab2)
+<img width="960" alt="Screenshot 2023-07-15 102433" src="https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/e143ac87-6ac6-4d8b-8b44-42a3342c2bb7">
+
 عملیات سینوس را اضافه می‌کنیم و به استیج اضافه، و کامیت و پوش می‌کنیم.
 ![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/7060428b-b9a0-4398-a57e-889a5c98e81c)
 عملیات کسینوس را اضاقه می‌کنیم و به استیج اضافه و کامیت و پوش می‌کنیم.
