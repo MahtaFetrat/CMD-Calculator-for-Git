@@ -16,6 +16,8 @@ def run_sin():
     try:
         number = float(number)
         print_answer(math.sin(number))
+        name = input('Enter your name to see new feature')
+        print(f'Hello {name}!!! Happy calculating sin!!!')
         return True
     except:
         run_sin()
