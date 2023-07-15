@@ -75,6 +75,17 @@
 
 ![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/38d89f35-973b-4f06-8ed6-e82edb925968)
 
+## رفع conflict ها
+
+اولین کانفلیکتی که به آن برخوردیم در مرج کردن برنچ basic_operations با main بود. تصویر کامیت مربوط به این کانفلیکت در زیر آمده است.
+![conflict1](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/d187d875-b6b0-4734-93e4-86fa406f5cde)
+
+سپس برای شبیه‌سازی کانفلیکت دوم، یک پیغام را در دو شاخه به نحو مختلفی نوشتیم که به کانفلیکت دیگری منجر شد. مراحل رخ‌داد و رفع این کانفلیکت در تصاویر زیر آمده‌است.
+
+![conflict](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/1162f713-fe2b-4b85-ac96-e231d38b254a)
+
+![solve-conflict](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/a6587c68-c8e9-4bc4-9438-051fc5134e8a)
+
 
 
 ## پرسش‌ها
