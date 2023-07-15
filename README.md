@@ -3,11 +3,11 @@
 ## راه‌اندازی اولیه‌ی مخزن
 در ابتدا یک مخزن خالی خصوصی در Github ایجاد شد. این مخزن با یک LICENSE، یک فایل ReadMe و یک فایل .gitignore راه‌اندازی شد. سپس به کمک دستورات خط فرمان Git، این مخزن بر روی سیستم محلی، ایجاد و بارگیری شد. این دستورات در تصویر زیر قابل مشاهده هستند.
 
-![git-init](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/3d777d74-1b9d-48c5-bcce-a4d105090374)
+![git-init](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/dcc5b4f5-c85f-4a3a-81ec-309d401604fc)
 
 سپس یک چهارچوب بسیار ساده و اولیه از منوی ماشین‌حساب مورد نظر، پیاده‌سازی و بر روی شاخه‌ی main بارگذاری شد. تصویر زیر این مراحل را در خط فرمان نمایش می‌دهد.
 
-![main-init](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/f870894a-e873-43f6-b484-a897cfd54743)
+![main-init](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/6d14d1f7-ddb2-4820-ae04-ed34e4eff202)
 
 در ادامه هریک از اعضای گروه، بر روی یک شاخه‌ی جدا، فرایند توسعه را در پیش گرفتند. این شاخه‌ها شامل موارد زیر می‌شوند.
 - عملیات‌های اصلی
@@ -15,18 +15,18 @@
 
 دو تصویر زیر، به ترتیب ساخت محلی یکی از این شاخه‌ها، اعمال اولین کامیت و بارگذاری آن بر روی remote را نمایش می‌دهند.
 
+![basic-op-create](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/02216c23-5886-4ca5-aa81-6a19f5303578)
 
-![basic-op-create](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/cff5f122-c95d-4b36-9858-b5b14323115c)
+![basic-op-init](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/1a65af05-556f-455f-8260-8b0f18787747)
 
-![basic-op-init](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/c5babc67-8a8f-49da-91ad-991ef32e62e5)
 
 پس پیاده‌سازی عملیات تقسیم، متوجه شدیم که پیغام کامیت مربوط به ضرب، به اشتباه به تقسیم اشاره دارد. برای حل این مشکل، ابتدا تغییرات جاری را stash کردیم، سپس پیغام کامیت قبلی را تصحیح کردیم. در ادامه تغییرات stash شده را pop کردیم و یک کامیت هم برای تقسیم زدیم. تصاویر زیر به ترتیب نشان‌دهنده‌ی وضعیت کامیت‌ها قبل از تصحیح این حطا، stash کردن تغییرات و تغییر پیغام کامیت و pop کردن تغییرات، اعمال کامیت تقسیم و وضعیت کامیت‌ها پس از آن هستند.
 
-![git-log](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/f178660a-e79a-4c45-836b-2ac11c6a6c74)
+![git-log](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/8c6aae19-664f-4f54-8c7a-ebce5526a854)
 
-![git-amend](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/623a11f8-87b8-45f1-88dc-9df44255fa5b)
+![git-amend](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/5ccc6237-8270-4c80-b835-9ff138614b04)
 
-![git-stash](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/a666806f-764e-4de2-abd0-01614d07fdb2)
+![git-stash](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/c6a18d53-9e3e-48ff-adab-bc16ce2d446c)
 
 ## کلون کردن مخزن و ادامه تغییرات
 ابتدا مخزن ایجاد شده در ریموت را کلون می‌کنیم.
