@@ -9,9 +9,12 @@ def input_option():
         print("Invalid option!")
         return None, False
 
+def run_trigonometric():
+    
 
-MENU_OPTIONS = ["Quit"]
-MENU_FUNCTIONS = []
+
+MENU_OPTIONS = ["Quit","Trigonometric operations"]
+MENU_FUNCTIONS = [run_trigonometric,]
 
 
 def run_menu():
