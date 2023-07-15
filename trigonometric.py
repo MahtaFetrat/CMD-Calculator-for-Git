@@ -32,7 +32,19 @@ def run_cos():
     except:
         run_cos()
 
-operations = [('Sin',run_sin),('Cos',run_cos),('Back',run_back)]
+def run_tan():
+    print('Enter a number in Radians to calculate Tangente, * to go back.')
+    number = input()
+    if number == '*':
+        return True
+    try:
+        number = float(number)
+        print_answer(math.tan(number))
+        return True
+    except:
+        run_tan()
+
+operations = [('Sin',run_sin),('Cos',run_cos),('Tan',run_tan),('Back',run_back)]
 
 def run_trigonometric_menu():
     print('Welcome to trigonometric calculator. Choose an operation.')
