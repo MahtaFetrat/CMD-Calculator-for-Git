@@ -68,7 +68,19 @@ def deg_2_rad():
     except:
         deg_2_rad()
 
-operations = [('Sin',run_sin),('Cos',run_cos),('Tan',run_tan),('Cot',run_cot),('Deg to Rad',deg_2_rad),('Back',run_back)]
+def rad_2_deg():
+    print('Enter a number in Radians to calculate Degrees, * to go back.')
+    number = input()
+    if number == '*':
+        return True
+    try:
+        number = float(number)
+        print_answer(number * 180 / math.pi)
+        return True
+    except:
+        rad_2_deg()
+
+operations = [('Sin',run_sin),('Cos',run_cos),('Tan',run_tan),('Cot',run_cot),('Deg to Rad',deg_2_rad),('Rad to Deg',rad_2_deg),('Back',run_back)]
 
 def run_trigonometric_menu():
     print('Welcome to trigonometric calculator. Choose an operation.')
