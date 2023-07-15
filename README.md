@@ -35,6 +35,10 @@
 ![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/88472951-68cd-4e7c-9af9-31ecd05a6f53)
 
 
+## محافظت شاخه‌ی main
+در بخش تنظیمات Branch، با اعمال یک rule روی برنچ main می‌توان ادغام با شاخه‌ی main را محدود به روش `pull request` و تایید آن کرد. تصویر زیر این تنظیمات را نشان می‌دهد.
+
+![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/62302965/b5d68d67-2703-4914-acb8-7ccf07e449a8)
 
 
 ## پرسش‌ها
