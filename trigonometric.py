@@ -9,7 +9,7 @@ def print_answer(answer):
     print('**********\n')
     
 def run_sin():
-    print('Enter a number in Radians, * to go back.')
+    print('Enter a number in Radians to calculate Sin, * to go back.')
     number = input()
     if number == '*':
         return True
@@ -20,7 +20,19 @@ def run_sin():
     except:
         run_sin()
 
-operations = [('Sin',run_sin),('Back',run_back)]
+def run_cos():
+    print('Enter a number in Radians to calculate Cosine, * to go back.')
+    number = input()
+    if number == '*':
+        return True
+    try:
+        number = float(number)
+        print_answer(math.cos(number))
+        return True
+    except:
+        run_cos()
+
+operations = [('Sin',run_sin),('Cos',run_cos),('Back',run_back)]
 
 def run_trigonometric_menu():
     print('Welcome to trigonometric calculator. Choose an operation.')
