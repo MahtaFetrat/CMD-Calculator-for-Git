@@ -33,6 +33,22 @@
 ![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/3fde060c-97f8-4640-8eb8-d76562fe836a)
 سپس با اضافه کردن منوی اعمال مثلثاتی در فایل menu.py این فایل را ابتدا add می‌کنیم و سپس چیزهایی که روی استیج قرار دارد را کامیت می‌کنیم. و سپس پوش می‌کنیم. هم اکنون همچنان روی شاخه اصلی قرار داریم و چون پروژه را از ابتدا کلون کرده بودیم ریموت آن مشخص بود و هنگام پوش مستقیما به آن ریموت پوش شد.
 ![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/88472951-68cd-4e7c-9af9-31ecd05a6f53)
+یک شاخه جدید برای کار روی عملیات‌های مثلثاتی ایجاد کرده و روی آن چک‌اوت می‌کنیم.
+![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/fdff2633-1ca1-42e0-ae80-f0eebe9ffabf)
+ّمنوی اولیه عملیات مثلثاتی را ایجاد می کنیم. این تغییر مستلزم تغییراتی در فایل‌های trigonometric.py وmenu.py می‌باشد. این فایل‌ها را به استیج اضافه کرده و کامیت می‌کنیم. با توجه به اینکه در حال حاضر هد روی شاخه جدیدی است که در ریموت وجود ندارد باید در پوش مشخص کنیم که این شاخه در ریپازیتوری ریموت نیز ساخته شود.
+![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/73d0c4a0-fdc2-4535-b2f1-dac5235a0ab2)
+عملیات سینوس را اضافه می‌کنیم و به استیج اضافه، و کامیت و پوش می‌کنیم.
+![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/7060428b-b9a0-4398-a57e-889a5c98e81c)
+عملیات کسینوس را اضاقه می‌کنیم و به استیج اضافه و کامیت و پوش می‌کنیم.
+![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/7712aba8-bca6-416c-bc12-34cdeeb136d0)
+عملیات‌های دیگر را هم به ترتیب اضافه می‌کنیم و برای هر پیشرفت جزئی مفهومی یک کامیت انجام می‌دهیم.
+![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/03c79ed8-30b6-44dd-8513-5f8489813623)
+![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/c0fd8e95-66bc-4a89-993d-9b5ebdbff10e)
+![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/b6385cb6-87be-4bf5-a49a-7c7ef3b4213e)
+
+
+
+
 
 ## محافظت شاخه‌ی main
 با اعمال یک rule بر روی شاخه‌ی main می‌توانیم شاخه‌ی main را از ادغام بدون `pull request` محافظت کنیم. تصویر زیر این تنظیمات را نشان می‌دهد.
