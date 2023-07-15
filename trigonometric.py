@@ -44,7 +44,19 @@ def run_tan():
     except:
         run_tan()
 
-operations = [('Sin',run_sin),('Cos',run_cos),('Tan',run_tan),('Back',run_back)]
+def run_cot():
+    print('Enter a number in Radians to calculate Cotangente, * to go back.')
+    number = input()
+    if number == '*':
+        return True
+    try:
+        number = float(number)
+        print_answer(math.cot(number))
+        return True
+    except:
+        run_cot()
+
+operations = [('Sin',run_sin),('Cos',run_cos),('Tan',run_tan),('Cot',run_cot),('Back',run_back)]
 
 def run_trigonometric_menu():
     print('Welcome to trigonometric calculator. Choose an operation.')
