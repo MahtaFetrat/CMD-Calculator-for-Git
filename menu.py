@@ -1,4 +1,5 @@
 from basic_operations import add, subtract, multiply, divide
+from trigonometric import run_trigonometric_menu
 
 
 def input_option():
@@ -71,8 +72,8 @@ def division_menu():
     print(f"The response is: {divide(first_number, second_number)}") 
 
 
-MENU_OPTIONS = ["Addition", "Subtraction", "Multiplication", "Division", "Quit"]
-MENU_FUNCTIONS = [add_menu, subtract_menu, multiply_menu, division_menu]
+MENU_OPTIONS = ["Addition", "Subtraction", "Multiplication", "Division", "Trigonometric operations","Quit"]
+MENU_FUNCTIONS = [add_menu, subtract_menu, multiply_menu, division_menu, run_trigonometric_menu]
 
 
 def run_menu():
