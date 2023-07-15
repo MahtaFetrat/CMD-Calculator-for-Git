@@ -45,6 +45,16 @@
 ![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/03c79ed8-30b6-44dd-8513-5f8489813623)
 ![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/c0fd8e95-66bc-4a89-993d-9b5ebdbff10e)
 ![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/b6385cb6-87be-4bf5-a49a-7c7ef3b4213e)
+تغییرات شاخه جدید را روی شاخه اصلی لوکال ادغام می‌کنیم:
+![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/90647a1a-26a8-4633-ae2a-25f4b38d0e8f)
+تغییرات جدید ریموت را دریافت می‌کنیم:
+![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/fad644d1-e3c3-4a99-8350-2feaeca94e61)
+هنگام پوش کردن تغییرات متوجه می‌شویم به علت محافظت شده بودن شاخه مین باید پول ریکوئست ایجاد کنیم:
+![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/5184582c-6ebd-4e39-b48c-4c0cd29e9569)
+پول ریکوئست را ایجاد کرده و کاربر دارای دسترسی آن را اکسپت و ادغام می‌کند. و در صورت وجود تداخل آن را حل می‌کند.
+
+
+
 
 
 
