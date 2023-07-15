@@ -32,7 +32,7 @@ def add_menu():
     second_number, valid = input_float()
     if not valid:
         return
-    print(f"The response is: {add(first_number, second_number)}") 
+    print(f"The response is: {add(first_number, second_number)}")
 
 
 def subtract_menu():
@@ -44,7 +44,8 @@ def subtract_menu():
     second_number, valid = input_float()
     if not valid:
         return
-    print(f"The response is: {subtract(first_number, second_number)}") 
+    print(f"The response is: {subtract(first_number, second_number)}")
+
 
 def multiply_menu():
     print("Please enter the first number:", end=" ")
@@ -55,7 +56,8 @@ def multiply_menu():
     second_number, valid = input_float()
     if not valid:
         return
-    print(f"The response is: {multiply(first_number, second_number)}") 
+    print(f"The response is: {multiply(first_number, second_number)}")
+
 
 def division_menu():
     print("Please enter the first number:", end=" ")
@@ -69,15 +71,28 @@ def division_menu():
     if second_number == 0:
         print("Division by zero not possible!")
         return
-    print(f"The response is: {divide(first_number, second_number)}") 
+    print(f"The response is: {divide(first_number, second_number)}")
 
 
-MENU_OPTIONS = ["Addition", "Subtraction", "Multiplication", "Division", "Trigonometric operations","Quit"]
-MENU_FUNCTIONS = [add_menu, subtract_menu, multiply_menu, division_menu, run_trigonometric_menu]
+MENU_OPTIONS = [
+    "Addition",
+    "Subtraction",
+    "Multiplication",
+    "Division",
+    "Trigonometric operations",
+    "Quit",
+]
+MENU_FUNCTIONS = [
+    add_menu,
+    subtract_menu,
+    multiply_menu,
+    division_menu,
+    run_trigonometric_menu,
+]
 
 
 def run_menu():
-    print("Please select one of the operation below you may see new features.")
+    print("Please select one of the operation below you may see new features:")
     for i, option in enumerate(MENU_OPTIONS):
         print(f"{i + 1}. {option}")
 
