@@ -59,7 +59,7 @@
 ![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/4cd2e382-680f-4288-9a63-20820bf4cae3)
 و مشابه شاخه قبل پول ریکوئست می‌زنیم:
 ![image](https://github.com/MahtaFetrat/CMD-Calculator-for-Git/assets/24840082/4af9aa0b-63dc-410f-bb74-dd085a7b2646)
-
+در یکی از کامیت‌ها یک فایل از پروژه به نام the_file_to_ignore.txt را که نمیخواهیم در گیت ردگیری شود به .gitignore اضافه می‌کنیم.
 
 
 
